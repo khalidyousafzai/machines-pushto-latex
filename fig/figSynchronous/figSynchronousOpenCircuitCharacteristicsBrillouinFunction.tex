@@ -1,0 +1,46 @@
+\documentclass[b5paper]{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{circuitikz}
+\usepackage{ifthen}   
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.5}
+
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing}
+%
+\setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+\input{../figRotatingMachPrinciplesLibrary.tex}
+
+\begin{document}
+\begin{urdufont}
+\begin{tikzpicture}
+%
+\def\xk{-4.35}
+\def\yk{-3.35}
+\draw[thick] (\xk,\yk)--(\xk+10,\yk) node [right] {$A$};
+\draw[thick] (\xk,\yk)--(\xk,\yk+6)node [right]{$V$};
+\begin{scope}
+\clip (\xk-1,\yk-1)  rectangle (\xk+10,\yk+6+0.2);  
+%grid
+%\draw[gray](-10,-10) grid (10,10);
+\node at (0,0) {\includegraphics[width=\linewidth]{figureBrillouin.pdf} };
+\foreach \x/\xl in {1.29/2,2.57/4,3.86/6,5.14/8,6.42/10,7.71/12,9/14}{
+\draw (\x+\xk,\yk)--++(0,-0.2)node[below]{$\xl$};}
+\foreach \y/\yl in {0.86/100,1.71/200,2.57/300,3.43/400,4.29/500,5.14/600,6/700}{
+\draw (\xk,\yk+\y)--++(-0.2,0)node[left]{$\yl$};}
+\end{scope}
+%
+\draw node at (1,-4.5){\RL{میدانی برقی رو}};
+\draw node[rotate=90] at (-6,0){\RL{کھلے دور برقی دباو}};
+\end{tikzpicture}%
+%============================
+\end{urdufont}
+\end{document}
+%---------------------
+

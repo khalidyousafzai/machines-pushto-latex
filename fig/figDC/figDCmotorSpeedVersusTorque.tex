@@ -1,0 +1,39 @@
+\documentclass[b5paper]{standalone}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage{circuitikz}
+\usepackage{ifthen}   
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\usepackage{siunitx} 
+\usetikzlibrary{calc}
+%
+\setmainlanguage{english}
+\setotherlanguages{arabic}
+\newfontfamily\arabicfont[Scale=1.0,Script=Arabic]{Scheherazade}
+\newfontfamily\urdufont[Scale=1.0,Script=Arabic]{XB Tabriz}
+
+  \newcommand\DrawControl[3]{
+  node[#2,circle,fill=#2,inner sep=2pt,label={above:$#1$},label={[black]below:{\footnotesize#3}}] at #1 {}
+}
+\begin{document}
+\begin{urdufont}
+
+
+\begin{tikzpicture}
+%grid
+%\draw [gray,thick] (0,0) grid (6,5);
+%\draw [gray,thin,xstep=0.1,ystep=0.1] (0,0) grid (6,5);
+\begin{axis}[
+ymin=940,
+%axis lines=middle,
+        xlabel={\RL{مروڑ $(\si{\newton \meter})$}},
+        ylabel={\RL{رفتار (چکر فی منٹ)}}]
+    \addplot[smooth] plot coordinates {(0,1000) (250.088,991.95) (527.35,983.96) (804.65,975.83)};
+\end{axis}
+\end{tikzpicture}
+
+\end{urdufont}
+\end{document}
+%---------------------
+
