@@ -1,0 +1,28 @@
+\select@language {arabic}
+\contentsline {chapter}{دیباچہ}{ix}
+\contentsline {chapter}{دیباچہ}{ix}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 1}}بنیادی حقیقتونہ}{\RL {\arabicfont 1}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 1}}بنیادی اکائی}{\RL {\arabicfont 1}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 1}}مقداری او سمتیہ}{\RL {\arabicfont 1}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 1}}محدد، خط مرتب}{\RL {\arabicfont 2}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 3}.\RL {\arabicfont 1}}کارتیسی محدد}{\RL {\arabicfont 2}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 3}.\RL {\arabicfont 1}}نلکی محدد}{\RL {\arabicfont 3}}
+\contentsline {section}{\numberline {\RL {\arabicfont 4}.\RL {\arabicfont 1}}سمتی رقبہ}{\RL {\arabicfont 6}}
+\contentsline {section}{\numberline {\RL {\arabicfont 5}.\RL {\arabicfont 1}}رقبہ د ولاړ تراش}{\RL {\arabicfont 7}}
+\contentsline {section}{\numberline {\RL {\arabicfont 6}.\RL {\arabicfont 1}}برقی میدان او مقناطیسی میدان}{\RL {\arabicfont 7}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 6}.\RL {\arabicfont 1}}برقی میدان اود برقی میدان تاو}{\RL {\arabicfont 7}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 6}.\RL {\arabicfont 1}}مقناطیسی میدان او د مقناطیسی میدان تاو}{\RL {\arabicfont 8}}
+\contentsline {section}{\numberline {\RL {\arabicfont 7}.\RL {\arabicfont 1}}سطحی او حجمی کثافت}{\RL {\arabicfont 9}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 7}.\RL {\arabicfont 1}}حجمی کثافت}{\RL {\arabicfont 10}}
+\contentsline {section}{\numberline {\RL {\arabicfont 8}.\RL {\arabicfont 1}}صلیبی ضرب او د نقطے ضرب}{\RL {\arabicfont 10}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 8}.\RL {\arabicfont 1}}صلیبی ضرب}{\RL {\arabicfont 10}}
+\contentsline {subsection}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 8}.\RL {\arabicfont 1}}د نقطے ضرب}{\RL {\arabicfont 12}}
+\contentsline {section}{\numberline {\RL {\arabicfont 9}.\RL {\arabicfont 1}}شرحِ فرق}{\RL {\arabicfont 14}}
+\contentsline {section}{\numberline {\RL {\arabicfont 10}.\RL {\arabicfont 1}}خطی غونډون}{\RL {\arabicfont 14}}
+\contentsline {section}{\numberline {\RL {\arabicfont 11}.\RL {\arabicfont 1}}سطحی غونډون}{\RL {\arabicfont 15}}
+\contentsline {section}{\numberline {\RL {\arabicfont 12}.\RL {\arabicfont 1}}دوری سمتیہ}{\RL {\arabicfont 16}}
+\contentsline {chapter}{\numberline {\RL {\arabicfont 2}}مقناطیسی دور}{\RL {\arabicfont 19}}
+\contentsline {section}{\numberline {\RL {\arabicfont 1}.\RL {\arabicfont 2}}مزاحمت او ہچکچاہټ}{\RL {\arabicfont 19}}
+\contentsline {section}{\numberline {\RL {\arabicfont 2}.\RL {\arabicfont 2}}کثافت برقی رو او د برقی میدان شدت}{\RL {\arabicfont 20}}
+\contentsline {section}{\numberline {\RL {\arabicfont 3}.\RL {\arabicfont 2}}برقی دور}{\RL {\arabicfont 20}}
+\contentsline {chapter}{فرہنگ}{\RL {\arabicfont 1}}
